@@ -1,5 +1,5 @@
 <template>
-  <h1>Basic Forms</h1>
+  <h1>Basic application Form</h1>
  <FirstForm :countries="countryList" />
 </template>
 
