@@ -1,13 +1,13 @@
 <template>
-  <form>
+  <form @submit.prevent="handelSubmit">
     <label>Name:</label>
-    <input type="email" required v-model="signupForm.name" />
+    <input type="text" required v-model="signupForm.name" />
 
     <label>Email:</label>
     <input type="email" required v-model="signupForm.email" />
 
     <label>Country</label>
-    <select id="country" required v-model="signupForm.country">
+    <select id="country" required v-model="signupForm.country" >
       <option value="">Select Country</option>
       <option v-for="(country, i) in countries" :value="country" :key="i">
         {{ country }}
@@ -22,7 +22,6 @@
     <label>Skills:</label>
     <input
       type="text"
-      required
       @keyup="skillsAdd($event)"
       v-model="signupForm.tempSkill"
     />
@@ -36,7 +35,6 @@
     <label>Positions To Apply(Use alt + ',' to add):</label>
     <input
       type="text"
-      required
       @keyup.alt="designation"
       v-model="signupForm.tempD"
     />
@@ -114,6 +112,16 @@ export default {
       }
       return;
     },
+    handelSubmit(){
+        // e.preventDefault();
+        for(let i in this.signupForm){
+            if(i.substr(0, 4) === 'temp'){
+                continue;
+            }
+            console.log(`${i}: ${this.signupForm[i]}`);
+        }
+        return;
+    }
   },
 };
 </script>
