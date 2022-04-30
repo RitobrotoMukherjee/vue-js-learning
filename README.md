@@ -1,40 +1,27 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<p align="center"><a href="https://vuejs.org" target="_blank" rel="noopener noreferrer"><img width="100" src="https://vuejs.org/images/logo.png" alt="Vue logo"></a></p>
 
-# Project Name
+# Learning VueJS 3
 
-> Description the project.
+> Learning VueJS 3 with small scale application
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- VueJS 3
+- HTML5
+- CSS3
 
-## Live Demo (if available)
+## Editor Used
 
-[Live Demo Link](https://livedemo.com)
+- **Vs Code**
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+**Required**
+- Node needs to be installed
+- npm should be accessible from **CLI**
+- run ``` npm install ```
 
 
 
@@ -42,21 +29,19 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@RitobrotoMukherjee](https://github.com/RitobrotoMukherjee)
+- Twitter: [@RitobrotoM3](https://twitter.com/RitobrotoM3)
+- LinkedIn: [Ritobroto Mukherjee](https://www.linkedin.com/in/ritobroto-mukherjee-519148ba/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](../../issues/). 
+
+Feel free to report an issue.
+
+Feel free to open a pull request after checking an issue.
 
 ## Show your support
 
@@ -64,9 +49,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Net Ninja [@iamshaunjp](https://github.com/iamshaunjp/Vue-3-Firebase)
+- Codevolution [@Vishwas gopinav](https://github.com/gopinav)
 
 ## 📝 License
 
