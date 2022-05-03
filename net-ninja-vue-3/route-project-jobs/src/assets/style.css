@@ -72,3 +72,9 @@ button {
     font-size: 0.8em;
     font-weight: bold;
 }
+
+.flex-items-columns{
+    flex: 1;
+    margin: 5px 0;
+    padding: 10px;
+}
