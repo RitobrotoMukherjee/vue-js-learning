@@ -73,8 +73,33 @@ button {
     font-weight: bold;
 }
 
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 0 25px;
+}
+
 .flex-items-columns{
     flex: 1;
     margin: 5px 0;
     padding: 10px;
+}
+
+.grid-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px 20px;
+    justify-content: center;
+}
+.grid-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #478bf2;
+    border-radius: 8px;
+    color: #478bf2;
+    padding: 20px;
+    min-height: 100px;
 }
