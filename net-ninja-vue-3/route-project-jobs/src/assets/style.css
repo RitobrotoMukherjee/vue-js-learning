@@ -89,7 +89,7 @@ button {
 
 .grid-list {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     gap: 10px 20px;
     justify-content: center;
 }

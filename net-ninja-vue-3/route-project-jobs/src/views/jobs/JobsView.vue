@@ -13,17 +13,18 @@
 </template>
 
 <script>
-let jobsList = [
-  { title: "Web Developer", id: 1, type: "Software" },
-  { title: "Fullstack Developer", id: 2, type: "Software" },
-  { title: "Data Scientist", id: 3, type: "Data" },
-];
 
 export default {
   data() {
     return {
-      jobs: jobsList,
+      jobs: [],
     };
   },
+  mounted() {
+    fetch('http://localhost:3000/jobs')
+        .then(res => res.json())
+        .then(data => this.jobs = data)
+        .catch(err => console.log(err.message));
+  }
 };
 </script>
